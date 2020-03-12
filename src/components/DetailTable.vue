@@ -56,7 +56,7 @@ export default {
       var table = document.getElementById("DetailTable");
       var rows = table.getElementsByTagName("tr");
       for (let i = 0; i < this.users.length; i++) {
-        if (this.users[i].login_count === 0) {
+        if (this.users[i].login_count === 1 && this.users[i].login_count > 1) {
           if (this.colorFlag) {
             rows[i + 1].className = "greenColor";
           } else {
