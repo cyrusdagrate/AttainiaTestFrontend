@@ -37,7 +37,7 @@ Back End Setup Steps:  (Used Pyton 3.7 + Django )
 Web Pages:
 
 1. Page 1 will list the Json data.
-2. Click the button to have the red highlight on entires that have login_count 1 or higher
+2. Click the button to have the red highlight on entires that have login_count 1 or higher 
 3. Page 2 will list the same Json data
 4. Click the button to have the green highlight on entires that have login_count 1 or higher
 
